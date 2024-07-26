@@ -1,0 +1,18 @@
+UPDATE EMPLOYEESALARY
+SET EmployeeID = 1013
+WHERE Bonus = 800;
+
+UPDATE EMPLOYEE
+SET JobTitle = 'SalesMan'
+WHERE EmployeeID = 1003;
+
+UPDATE EMPLOYEE
+SET EmployeeID = 1005
+WHERE FirstName = 'Steven';
+
+UPDATE EMPLOYEE
+SET EmployeeID = 1007
+WHERE FirstName = 'Joshua';
+
+DELETE FROM EMPLOYEE
+WHERE EmployeeID IS NULL;

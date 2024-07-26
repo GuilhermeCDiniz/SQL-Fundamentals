@@ -1,0 +1,2 @@
+SELECT *, COUNT(Gender) OVER (PARTITION BY Gender) as TotalGender
+FROM EMPLOYEE;
